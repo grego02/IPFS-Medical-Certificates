@@ -2,15 +2,15 @@
 
 IPFS based protocol for upload and retrive medical certificates.
 
-This project allows doctors to send medical recipes related to work absenteeism. The system has three parts: doctors registration, upload medical certifications and retrieve the certifications.
+This project allows doctors to send medical certificates related to work absenteeism. The system has three parts: doctors registration, upload medical certificates and its retrieveal .
 
-In order to access to the system, users must identify themselves with their metamask wallet.Depending on their role (medical company, doctor or patient), they access to diferent screens.
+In order to access the system, users must identify themselves with their metamask wallet.Depending on their role (medical company, doctor or patient), they access to diferent screens.
 
-1. The medical company (the owner's site) register doctors in the system.
+1. The medical company (the owner's site) registers doctors in the system.
    
    ![Example](assets/company.png)
 
-2. The doctors registered can upload medical certificates, and obtain an ipfs ID.
+2. The doctors registered may upload medical certificates and obtain an ipfs ID.
 
     ![Example](assets/doctor.png)
 
@@ -26,13 +26,13 @@ In order to run the system in local mode, the steps are as follow:
 
 1. Clone the project into your computer.
 
-2. Change into the folder of the project, and run:
+2. Change into the project's folder and run:
 ```bash
 npm i
 ```
-3. It is necessary to have metamask installed. If you don't have it yet, you can download the extension for the browser   you are currently using.
+3. It is necessary to have metamask installed. If you don't have it yet, you can download the extension for the browser you are currently using.
 
-4. Add three accounts to the metamask wallet. In order to can execute this project, you must install this accounts (through the private key provided):
+4. Add three accounts to the metamask wallet. In order to execute this project, you must install these accounts (through the private key provided):
   
   * Medical company
      * ACCOUNT ADDRESS 0xc939d487b9F6778f45776248eFaa2f24b56e4e63
@@ -52,13 +52,13 @@ npm i
 npm start
 ```
 
-6. Setting the different accounts (medical company, doctor and patient) as current connected account in the metamask wallet, you will see the different screens mentioned above.
-Connect to the system with doctor's account, and upload the image: assets/example.png   
+6. Loggin into different account types (medical company, doctor and patient) in the metamask wallet, will show you the different screens as mentioned above.
+Log into the system with doctor's account, and upload the image: assets/example.png   
 Copy the id that appears after path:
 
 ![Example](assets/doctor.png)
 
-7. Connect to the system with patient's account. Enter the ID obtained in the previous step. You'll see the image, retrieved from IPFS.
+7. Log in  with patient's account. Enter the ID obtained in the previous step. You will see the image, retrieved from IPFS.
 
 
 
