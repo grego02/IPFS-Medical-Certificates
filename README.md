@@ -24,7 +24,7 @@ In order to access to the system, users must identify themselves with their meta
 
 
 
-## IPFS Medical certification Local
+## IPFS Medical certification local mode
 
 In order to run the system in local mode, the steps are as follow:
 
