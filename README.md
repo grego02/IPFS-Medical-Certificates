@@ -1,4 +1,4 @@
-# IPFS Nedical certificates
+# IPFS Medical certificates
 
 IPFS based protocol for upload and retrive medical certificates.
 
@@ -12,15 +12,15 @@ In order to access to the system, users must identify themselves with their meta
 
 1. The medical company (the owner's site) register doctors in the system.
    
-   ![Example](assets/company.jpg)      ![Example](assets/company1.jpg)
+   ![Example](assets/company.JPG)      ![Example](assets/company1.jpg)
 
 2. The doctors registered can upload medical certificates, and obtain a document ID.
 
-    ![Example](assets/doctor.jpg)
+    ![Example](assets/doctor.JPG)
 
 3. With the ID given by the doctor, the patient retrieves the certificate from IPFS.
 
-    ![Example](assets/patient.jpg)
+    ![Example](assets/patient.JPG)
 
 
 
