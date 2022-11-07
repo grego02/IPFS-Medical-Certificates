@@ -2,7 +2,7 @@
 
 IPFS based protocol for upload and retrive medical certificates.
 
-In some countries, it is common practice for doctors to issue a certificate to validate the worker's absence from work. Another document that doctors can issue is the one that certifies that a patient is able to perform physical activities.In the mentioned countries, the falsification of these documents by the patients is a serious problem.
+In some countries, it is common practice for doctors to issue a certificate to validate the worker's absence from work. Another document that doctors can issue is the one that certifies that a patient is able to perform physical activities.In these countries, the falsification of these documents by the patients is a serious problem.
 This dapp allows doctors to securely issue medical certificates. As the mentioned document is stored in the IPFS system and the corresponding CID is stored in a smart contract, there is no chance for the patient to falsify the medical certificate.
 When the doctor makes a certificate, he has to upload an image of it to the IPFS, through this Dapp. The system displays a corresponding CID, and the patient delivers it to the final recipient. Finally, the recipient must retrieve the mentioned certificate by entering the CID in the Dapp. Since only registered doctors can upload medical certificates to the Dapp, it is impossible for the patient to falsify those documents.
 
